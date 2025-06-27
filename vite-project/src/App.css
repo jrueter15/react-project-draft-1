@@ -15,6 +15,37 @@ body {
   
 }
 
+.HomePage{
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "HomeVideo HomeText"
+}
+
+.HomeVideo{
+  flex: 1;
+}
+
+.HomeText{
+    flex: 1;
+    font-size: 1em;
+    min-width: 300px;
+    max-width: 800px;
+    align-items: center;
+    padding: 20px 120px;
+    border: 1px solid #bcbbbb;
+    background-color: #ffffff70;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.188);
+    margin-bottom: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+    height: 320px;
+    line-height: 25px;
+}
+
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -26,16 +57,5 @@ h2{
   margin-top:10px;
   display:inline-block;
   text-align:left;
-}
-
-p{
-  margin: 0 auto;
-  text-align: justify;
-  text-justify: inter-word;
-  min-width: 300px;
-  max-width: 800px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0);
 }
 

@@ -1,4 +1,8 @@
 
-footer{
-    margin-top: 100px;
+.Footer{
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #bcbbbb;
+    background-color: #e5e2e283;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.188);
 }

@@ -4,7 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 10%;
+    padding: 20px 10%;
+    border: 1px solid #bcbbbb;
+    background-color: #e5e2e283;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.188);
+    margin-bottom: 25px;
     
 }
 
