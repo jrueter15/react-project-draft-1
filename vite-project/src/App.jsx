@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
+import UserForm from './components/UserForm/UserForm';
 import Login from './components/Login/Login'
+import UserDailyLog from './components/UserDailyLog/UserDailyLog'
 import Footer from './components/Footer/Footer'
 
 
@@ -15,8 +17,7 @@ function App() {
       </div>
 
       <div >
-        <Login/>
-        {new Date().toLocaleDateString()}
+        <UserForm/>
       </div>
 
       <div>
@@ -40,11 +41,15 @@ function App() {
 
       </div>
 
+      <div>
+        <UserDailyLog/>
+      </div>
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
          count is {count}
-      </button>
-        </div>
+        </button>
+      </div>
 
       <div>
         <Footer/>
